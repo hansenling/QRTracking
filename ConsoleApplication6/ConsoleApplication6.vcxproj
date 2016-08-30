@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{31E9C98F-EDCA-4116-B2B9-D3300E4876D3}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ConsoleApplication6</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\Hansen\Documents\Visual Studio 2015\Projects\ConsoleApplication6\opencv\build\include;C:\Users\Hansen\Documents\Visual Studio 2015\Projects\ConsoleApplication6\opencv\build\include\opencv2;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Hansen\Documents\Visual Studio 2015\Projects\ConsoleApplication6\opencv\build\lib\Release;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\Hansen\Documents\Visual Studio 2015\Projects\ConsoleApplication6\opencv\build\include;C:\Users\Hansen\Documents\Visual Studio 2015\Projects\ConsoleApplication6\opencv\build\include\opencv2;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Hansen\Documents\Visual Studio 2015\Projects\ConsoleApplication6\opencv\build\lib\Release;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Users\Hansen\Documents\Visual Studio 2015\Projects\ConsoleApplication6\opencv\build\include;C:\Users\Hansen\Documents\Visual Studio 2015\Projects\ConsoleApplication6\opencv\build\include\opencv2;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Hansen\Documents\Visual Studio 2015\Projects\ConsoleApplication6\opencv\build\lib\Release;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Users\Hansen\Documents\Visual Studio 2015\Projects\ConsoleApplication6\opencv\build\include;C:\Users\Hansen\Documents\Visual Studio 2015\Projects\ConsoleApplication6\opencv\build\include\opencv2;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Hansen\Documents\Visual Studio 2015\Projects\ConsoleApplication6\opencv\build\lib\Release;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opencv_core300.lib;opencv_calib3d300.lib;opencv_imgproc300.lib;opencv_highgui300.lib;opencv_imgcodecs300.lib;opencv_videoio300.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opencv_core300.lib;opencv_calib3d300.lib;opencv_imgproc300.lib;opencv_highgui300.lib;opencv_imgcodecs300.lib;opencv_videoio300.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>opencv_core300.lib;opencv_calib3d300.lib;opencv_imgproc300.lib;opencv_highgui300.lib;opencv_imgcodecs300.lib;opencv_videoio300.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>opencv_core300.lib;opencv_calib3d300.lib;opencv_imgproc300.lib;opencv_highgui300.lib;opencv_imgcodecs300.lib;opencv_videoio300.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="calibration\output.txt" />
+    <Text Include="opencv_qr-master\CMakeLists.txt" />
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="video.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="calibration\cup.png" />
+    <Image Include="calibration\depth00000.png" />
+    <Image Include="calibration\depth00001.png" />
+    <Image Include="calibration\depth00002.png" />
+    <Image Include="calibration\depth00003.png" />
+    <Image Include="calibration\depth00004.png" />
+    <Image Include="calibration\depth00005.png" />
+    <Image Include="calibration\depth00006.png" />
+    <Image Include="calibration\depth00007.png" />
+    <Image Include="calibration\depth00008.png" />
+    <Image Include="calibration\depth00009.png" />
+    <Image Include="calibration\depth00010.png" />
+    <Image Include="calibration\depth00011.png" />
+    <Image Include="calibration\depth00012.png" />
+    <Image Include="calibration\depth00013.png" />
+    <Image Include="calibration\depth00014.png" />
+    <Image Include="calibration\depth00015.png" />
+    <Image Include="calibration\depth00016.png" />
+    <Image Include="calibration\depth00017.png" />
+    <Image Include="calibration\depth00018.png" />
+    <Image Include="calibration\depth00019.png" />
+    <Image Include="calibration\depth00020.png" />
+    <Image Include="calibration\depth00021.png" />
+    <Image Include="calibration\depth00022.png" />
+    <Image Include="calibration\depth00023.png" />
+    <Image Include="calibration\depth00024.png" />
+    <Image Include="calibration\depth00025.png" />
+    <Image Include="calibration\depth00026.png" />
+    <Image Include="calibration\depth00027.png" />
+    <Image Include="calibration\depth00028.png" />
+    <Image Include="calibration\depth00029.png" />
+    <Image Include="calibration\depth00030.png" />
+    <Image Include="calibration\depth00031.png" />
+    <Image Include="calibration\depth00032.png" />
+    <Image Include="calibration\depth00033.png" />
+    <Image Include="calibration\depth00034.png" />
+    <Image Include="calibration\depth00035.png" />
+    <Image Include="calibration\depth00036.png" />
+    <Image Include="calibration\depth00037.png" />
+    <Image Include="calibration\depth00038.png" />
+    <Image Include="calibration\depth00039.png" />
+    <Image Include="calibration\depth00040.png" />
+    <Image Include="calibration\depth00041.png" />
+    <Image Include="calibration\depth00042.png" />
+    <Image Include="calibration\depth00043.png" />
+    <Image Include="calibration\depth00044.png" />
+    <Image Include="calibration\depth00045.png" />
+    <Image Include="calibration\depth00046.png" />
+    <Image Include="calibration\depth00047.png" />
+    <Image Include="calibration\depth00048.png" />
+    <Image Include="calibration\depth00049.png" />
+    <Image Include="calibration\depth00050.png" />
+    <Image Include="calibration\depth00051.png" />
+    <Image Include="calibration\depth00052.png" />
+    <Image Include="calibration\depth00053.png" />
+    <Image Include="calibration\depth00054.png" />
+    <Image Include="calibration\depth00055.png" />
+    <Image Include="calibration\depth00056.png" />
+    <Image Include="calibration\depth00057.png" />
+    <Image Include="calibration\depth00058.png" />
+    <Image Include="calibration\depth00059.png" />
+    <Image Include="calibration\depth00060.png" />
+    <Image Include="calibration\depth00061.png" />
+    <Image Include="calibration\depth00062.png" />
+    <Image Include="calibration\depth00063.png" />
+    <Image Include="calibration\depth00064.png" />
+    <Image Include="calibration\depth00065.png" />
+    <Image Include="calibration\depth00066.png" />
+    <Image Include="calibration\depth00067.png" />
+    <Image Include="calibration\depth00068.png" />
+    <Image Include="calibration\depth00069.png" />
+    <Image Include="calibration\depth00070.png" />
+    <Image Include="calibration\depth00071.png" />
+    <Image Include="calibration\depth00072.png" />
+    <Image Include="calibration\depth00073.png" />
+    <Image Include="calibration\depth00074.png" />
+    <Image Include="calibration\depth00075.png" />
+    <Image Include="calibration\depth00076.png" />
+    <Image Include="calibration\ir00000.png" />
+    <Image Include="calibration\ir00001.png" />
+    <Image Include="calibration\ir00002.png" />
+    <Image Include="calibration\ir00003.png" />
+    <Image Include="calibration\ir00004.png" />
+    <Image Include="calibration\ir00005.png" />
+    <Image Include="calibration\ir00006.png" />
+    <Image Include="calibration\ir00007.png" />
+    <Image Include="calibration\ir00008.png" />
+    <Image Include="calibration\ir00009.png" />
+    <Image Include="calibration\ir00010.png" />
+    <Image Include="calibration\ir00011.png" />
+    <Image Include="calibration\ir00012.png" />
+    <Image Include="calibration\ir00013.png" />
+    <Image Include="calibration\ir00014.png" />
+    <Image Include="calibration\ir00015.png" />
+    <Image Include="calibration\ir00016.png" />
+    <Image Include="calibration\ir00017.png" />
+    <Image Include="calibration\ir00018.png" />
+    <Image Include="calibration\ir00019.png" />
+    <Image Include="calibration\ir00020.png" />
+    <Image Include="calibration\ir00021.png" />
+    <Image Include="calibration\ir00022.png" />
+    <Image Include="calibration\ir00023.png" />
+    <Image Include="calibration\ir00024.png" />
+    <Image Include="calibration\ir00025.png" />
+    <Image Include="calibration\ir00026.png" />
+    <Image Include="calibration\ir00027.png" />
+    <Image Include="calibration\ir00028.png" />
+    <Image Include="calibration\ir00029.png" />
+    <Image Include="calibration\ir00030.png" />
+    <Image Include="calibration\ir00031.png" />
+    <Image Include="calibration\ir00032.png" />
+    <Image Include="calibration\ir00033.png" />
+    <Image Include="calibration\ir00034.png" />
+    <Image Include="calibration\ir00035.png" />
+    <Image Include="calibration\ir00036.png" />
+    <Image Include="calibration\ir00037.png" />
+    <Image Include="calibration\ir00038.png" />
+    <Image Include="calibration\ir00039.png" />
+    <Image Include="calibration\ir00040.png" />
+    <Image Include="calibration\ir00041.png" />
+    <Image Include="calibration\ir00042.png" />
+    <Image Include="calibration\ir00043.png" />
+    <Image Include="calibration\ir00044.png" />
+    <Image Include="calibration\ir00045.png" />
+    <Image Include="calibration\ir00046.png" />
+    <Image Include="calibration\ir00047.png" />
+    <Image Include="calibration\ir00048.png" />
+    <Image Include="calibration\ir00049.png" />
+    <Image Include="calibration\ir00050.png" />
+    <Image Include="calibration\ir00051.png" />
+    <Image Include="calibration\ir00052.png" />
+    <Image Include="calibration\ir00053.png" />
+    <Image Include="calibration\ir00054.png" />
+    <Image Include="calibration\ir00055.png" />
+    <Image Include="calibration\ir00056.png" />
+    <Image Include="calibration\ir00057.png" />
+    <Image Include="calibration\ir00058.png" />
+    <Image Include="calibration\ir00059.png" />
+    <Image Include="calibration\ir00060.png" />
+    <Image Include="calibration\ir00061.png" />
+    <Image Include="calibration\ir00062.png" />
+    <Image Include="calibration\ir00063.png" />
+    <Image Include="calibration\ir00064.png" />
+    <Image Include="calibration\ir00065.png" />
+    <Image Include="calibration\ir00066.png" />
+    <Image Include="calibration\ir00067.png" />
+    <Image Include="calibration\ir00068.png" />
+    <Image Include="calibration\ir00069.png" />
+    <Image Include="calibration\ir00070.png" />
+    <Image Include="calibration\ir00071.png" />
+    <Image Include="calibration\ir00072.png" />
+    <Image Include="calibration\ir00073.png" />
+    <Image Include="calibration\ir00074.png" />
+    <Image Include="calibration\ir00075.png" />
+    <Image Include="calibration\ir00076.png" />
+    <Image Include="calibration\rgb00000.jpg" />
+    <Image Include="calibration\rgb00001.jpg" />
+    <Image Include="calibration\rgb00002.jpg" />
+    <Image Include="calibration\rgb00003.jpg" />
+    <Image Include="calibration\rgb00004.jpg" />
+    <Image Include="calibration\rgb00005.jpg" />
+    <Image Include="calibration\rgb00006.jpg" />
+    <Image Include="calibration\rgb00007.jpg" />
+    <Image Include="calibration\rgb00008.jpg" />
+    <Image Include="calibration\rgb00009.jpg" />
+    <Image Include="calibration\rgb00010.jpg" />
+    <Image Include="calibration\rgb00011.jpg" />
+    <Image Include="calibration\rgb00012.jpg" />
+    <Image Include="calibration\rgb00013.jpg" />
+    <Image Include="calibration\rgb00014.jpg" />
+    <Image Include="calibration\rgb00015.jpg" />
+    <Image Include="calibration\rgb00016.jpg" />
+    <Image Include="calibration\rgb00017.jpg" />
+    <Image Include="calibration\rgb00018.jpg" />
+    <Image Include="calibration\rgb00019.jpg" />
+    <Image Include="calibration\rgb00020.jpg" />
+    <Image Include="calibration\rgb00021.jpg" />
+    <Image Include="calibration\rgb00022.jpg" />
+    <Image Include="calibration\rgb00023.jpg" />
+    <Image Include="calibration\rgb00024.jpg" />
+    <Image Include="calibration\rgb00025.jpg" />
+    <Image Include="calibration\rgb00026.jpg" />
+    <Image Include="calibration\rgb00027.jpg" />
+    <Image Include="calibration\rgb00028.jpg" />
+    <Image Include="calibration\rgb00029.jpg" />
+    <Image Include="calibration\rgb00030.jpg" />
+    <Image Include="calibration\rgb00031.jpg" />
+    <Image Include="calibration\rgb00032.jpg" />
+    <Image Include="calibration\rgb00033.jpg" />
+    <Image Include="calibration\rgb00034.jpg" />
+    <Image Include="calibration\rgb00035.jpg" />
+    <Image Include="calibration\rgb00036.jpg" />
+    <Image Include="calibration\rgb00037.jpg" />
+    <Image Include="calibration\rgb00038.jpg" />
+    <Image Include="calibration\rgb00039.jpg" />
+    <Image Include="calibration\rgb00040.jpg" />
+    <Image Include="calibration\rgb00041.jpg" />
+    <Image Include="calibration\rgb00042.jpg" />
+    <Image Include="calibration\rgb00043.jpg" />
+    <Image Include="calibration\rgb00044.jpg" />
+    <Image Include="calibration\rgb00045.jpg" />
+    <Image Include="calibration\rgb00046.jpg" />
+    <Image Include="calibration\rgb00047.jpg" />
+    <Image Include="calibration\rgb00048.jpg" />
+    <Image Include="calibration\rgb00049.jpg" />
+    <Image Include="calibration\rgb00050.jpg" />
+    <Image Include="calibration\rgb00051.jpg" />
+    <Image Include="calibration\rgb00052.jpg" />
+    <Image Include="calibration\rgb00053.jpg" />
+    <Image Include="calibration\rgb00054.jpg" />
+    <Image Include="calibration\rgb00055.jpg" />
+    <Image Include="calibration\rgb00056.jpg" />
+    <Image Include="calibration\rgb00057.jpg" />
+    <Image Include="calibration\rgb00058.jpg" />
+    <Image Include="calibration\rgb00059.jpg" />
+    <Image Include="calibration\rgb00060.jpg" />
+    <Image Include="calibration\rgb00061.jpg" />
+    <Image Include="calibration\rgb00062.jpg" />
+    <Image Include="calibration\rgb00063.jpg" />
+    <Image Include="calibration\rgb00064.jpg" />
+    <Image Include="calibration\rgb00065.jpg" />
+    <Image Include="calibration\rgb00066.jpg" />
+    <Image Include="calibration\rgb00067.jpg" />
+    <Image Include="calibration\rgb00068.jpg" />
+    <Image Include="calibration\rgb00069.jpg" />
+    <Image Include="calibration\rgb00070.jpg" />
+    <Image Include="calibration\rgb00071.jpg" />
+    <Image Include="calibration\rgb00072.jpg" />
+    <Image Include="calibration\rgb00073.jpg" />
+    <Image Include="calibration\rgb00074.jpg" />
+    <Image Include="calibration\rgb00075.jpg" />
+    <Image Include="calibration\rgb00076.jpg" />
+    <Image Include="opencv_qr-master\align.png" />
+    <Image Include="opencv_qr-master\area_ratio.png" />
+    <Image Include="opencv_qr-master\markers.png" />
+    <Image Include="opencv_qr-master\naming.png" />
+    <Image Include="opencv_qr-master\oreint.png" />
+    <Image Include="opencv_qr-master\sample.jpg" />
+    <Image Include="qr1.jpg" />
+    <Image Include="qr2.jpg" />
+    <Image Include="qr3.jpg" />
+    <Image Include="qr4.jpg" />
+    <Image Include="qr5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="calibration\results.yml" />
+    <None Include="opencv_qr-master\README.md" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

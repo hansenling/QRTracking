@@ -1,0 +1,156 @@
+%YAML:1.0
+array_name: Kinect 2
+calibration_time: "02/25/16 12:08:57"
+cameras: 2
+mosaic_views: 1
+multi_views: 2
+mosaic_height: 1
+mosaic_width: 1
+ref_cam_mview: 0
+ref_cam_mosaic: 0
+# Calibration status flags
+b_color_done: 0
+b_wbalance_done: 0
+b_intrinsic_done: 1
+b_mosaic_done: 0
+b_multicolor_done: 0
+b_multiview_done: 1
+b_rectify_mv_done: 1
+b_rectify_mv_mosaic_done: 0
+baseline: [ 0., 4.20514297e+001 ]
+final_cam_layout: [ 0, 1 ]
+max_rect_bounding_box: [ -2.38431732e+002, -7.40323639e+001,
+    1.21088660e+003, 9.14012085e+002 ]
+Camera_0:
+   index: 0
+   label: ir
+   path: ir
+   format: "*.png"
+   img_width: 512
+   img_height: 424
+   bayer: NONE
+   image_rotation: 0
+   init_position: [ 0., 0., 0. ]
+   calib_mat: !!opencv-matrix
+      rows: 3
+      cols: 3
+      dt: f
+      data: [ 3.63112244e+002, 0., 2.58153259e+002, 0., 3.63230499e+002,
+          2.03633270e+002, 0., 0., 1. ]
+   dist_mat: !!opencv-matrix
+      rows: 4
+      cols: 1
+      dt: f
+      data: [ 8.86897072e-002, -2.29897276e-001, 0., 0. ]
+   ext_mat: !!opencv-matrix
+      rows: 1
+      cols: 6
+      dt: f
+      data: [ 0., 0., 0., 0., 0., 0. ]
+   mosaic_mat: !!opencv-matrix
+      rows: 3
+      cols: 3
+      dt: f
+      data: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+   mosaic_mat_final: !!opencv-matrix
+      rows: 3
+      cols: 3
+      dt: f
+      data: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+   rect_mat: !!opencv-matrix
+      rows: 3
+      cols: 3
+      dt: f
+      data: [ 2.13938475e+000, 4.32408834e-003, -4.30336914e+001,
+          1.30007505e-001, 1.93730009e+000, -6.64185791e+001,
+          3.61712941e-004, 3.94147401e-006, 8.97156000e-001 ]
+   rect_mat_final: !!opencv-matrix
+      rows: 3
+      cols: 3
+      dt: f
+      data: [ 2.13938475e+000, 4.32408834e-003, -4.30336914e+001,
+          1.30007505e-001, 1.93730009e+000, -6.64185791e+001,
+          3.61712941e-004, 3.94147401e-006, 8.97156000e-001 ]
+   rect_bounding_box: [ -48., -75., 1020., 914. ]
+   color_mat: !!opencv-matrix
+      rows: 3
+      cols: 4
+      dt: f
+      data: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0. ]
+   color_mat_final: !!opencv-matrix
+      rows: 3
+      cols: 4
+      dt: f
+      data: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0. ]
+   wb_mat: !!opencv-matrix
+      rows: 3
+      cols: 3
+      dt: f
+      data: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+Camera_1:
+   index: 1
+   label: col
+   path: col
+   format: "*.jpg"
+   img_width: 1920
+   img_height: 1080
+   bayer: RG
+   image_rotation: 0
+   init_position: [ -48., 0., 0. ]
+   calib_mat: !!opencv-matrix
+      rows: 3
+      cols: 3
+      dt: f
+      data: [ 1.04309741e+003, 0., 9.57346802e+002, 0., 1.04309741e+003,
+          5.27799683e+002, 0., 0., 1. ]
+   dist_mat: !!opencv-matrix
+      rows: 4
+      cols: 1
+      dt: f
+      data: [ 2.44810805e-002, -1.08497236e-002, 0., 0. ]
+   ext_mat: !!opencv-matrix
+      rows: 1
+      cols: 6
+      dt: f
+      data: [ 4.17013893e+001, 2.45257258e-001, -5.40895605e+000,
+          2.58621620e-003, -2.73110508e-003, 4.53831721e-003 ]
+   mosaic_mat: !!opencv-matrix
+      rows: 3
+      cols: 3
+      dt: f
+      data: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+   mosaic_mat_final: !!opencv-matrix
+      rows: 3
+      cols: 3
+      dt: f
+      data: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+   rect_mat: !!opencv-matrix
+      rows: 3
+      cols: 3
+      dt: f
+      data: [ 7.46950150e-001, 3.57323862e-003, -2.06386078e+002,
+          4.30744551e-002, 6.74375296e-001, -3.46484222e+001,
+          1.29166699e-004, -5.89059937e-007, 8.65598202e-001 ]
+   rect_mat_final: !!opencv-matrix
+      rows: 3
+      cols: 3
+      dt: f
+      data: [ 7.46950150e-001, 3.57323862e-003, -2.06386078e+002,
+          4.30744551e-002, 6.74375296e-001, -3.46484222e+001,
+          1.29166699e-004, -5.89059937e-007, 8.65598202e-001 ]
+   rect_bounding_box: [ -239., -41., 429., 334. ]
+   color_mat: !!opencv-matrix
+      rows: 3
+      cols: 4
+      dt: f
+      data: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0. ]
+   color_mat_final: !!opencv-matrix
+      rows: 3
+      cols: 4
+      dt: f
+      data: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0. ]
+   wb_mat: !!opencv-matrix
+      rows: 3
+      cols: 3
+      dt: f
+      data: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]

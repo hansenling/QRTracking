@@ -1,0 +1,773 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+    <Text Include="calibration\output.txt" />
+    <Text Include="opencv_qr-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="video.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="calibration\depth00002.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00003.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00004.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00005.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00006.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00007.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00008.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00009.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00010.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00011.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00012.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00013.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00014.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00015.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00016.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00017.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00018.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00019.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00020.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00021.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00022.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00023.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00024.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00025.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00026.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00027.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00028.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00029.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00030.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00031.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00032.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00033.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00034.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00035.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00036.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00037.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00038.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00039.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00040.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00041.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00042.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00043.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00044.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00045.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00046.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00047.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00048.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00049.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00050.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00051.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00052.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00053.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00054.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00055.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00056.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00057.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00058.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00059.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00060.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00061.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00062.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00063.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00064.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00065.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00066.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00067.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00068.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00069.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00070.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00071.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00072.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00073.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00074.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00075.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00076.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00000.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00001.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00002.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00003.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00004.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00005.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00006.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00007.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00008.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00009.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00010.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00011.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00012.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00013.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00014.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00015.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00016.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00017.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00018.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00019.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00020.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00021.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00022.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00023.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00024.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00025.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00026.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00027.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00028.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00029.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00030.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00031.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00032.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00033.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00034.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00035.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00036.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00037.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00038.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00039.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00040.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00041.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00042.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00043.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00044.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00045.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00046.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00047.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00048.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00049.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00050.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00051.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00052.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00053.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00054.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00055.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00056.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00057.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00058.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00059.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00060.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00061.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00062.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00063.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00064.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00065.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00066.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00067.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00068.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00069.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00070.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00071.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00072.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00073.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00074.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00075.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\ir00076.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00000.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00001.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00002.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00003.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00004.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00005.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00006.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00007.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00008.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00009.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00010.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00011.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00012.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00013.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00014.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00015.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00016.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00017.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00018.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00019.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00020.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00021.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00022.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00023.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00024.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00025.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00026.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00027.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00028.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00029.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00030.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00031.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00032.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00033.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00034.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00035.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00036.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00037.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00038.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00039.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00040.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00041.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00042.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00043.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00044.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00045.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00046.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00047.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00048.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00049.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00050.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00051.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00052.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00053.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00054.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00055.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00056.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00057.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00058.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00059.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00060.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00061.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00062.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00063.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00064.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00065.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00066.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00067.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00068.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00069.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00070.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00071.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00072.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00073.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00074.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00075.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\rgb00076.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00000.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\depth00001.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="calibration\cup.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="opencv_qr-master\align.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="opencv_qr-master\area_ratio.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="opencv_qr-master\markers.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="opencv_qr-master\naming.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="opencv_qr-master\oreint.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="opencv_qr-master\sample.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="qr1.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="qr2.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="qr3.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="qr4.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="qr5.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="calibration\results.yml" />
+    <None Include="opencv_qr-master\README.md" />
+  </ItemGroup>
+</Project>

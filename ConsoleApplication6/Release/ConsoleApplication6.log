@@ -1,0 +1,151 @@
+﻿Build started 4/18/2016 3:35:39 PM.
+     1>Project "C:\Users\Hansen\Documents\Visual Studio 2015\Projects\ConsoleApplication6\ConsoleApplication6\ConsoleApplication6.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"Release\ConsoleApplication6.pch" /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Release\ConsoleApplication6.pch" /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt ConsoleApplication6.cpp video.cpp
+         ConsoleApplication6.cpp
+     1>ConsoleApplication6.cpp(89): warning C4018: '<': signed/unsigned mismatch
+     1>ConsoleApplication6.cpp(92): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>ConsoleApplication6.cpp(103): warning C4018: '<': signed/unsigned mismatch
+     1>ConsoleApplication6.cpp(193): warning C4018: '<': signed/unsigned mismatch
+     1>ConsoleApplication6.cpp(221): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>ConsoleApplication6.cpp(222): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>ConsoleApplication6.cpp(223): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>ConsoleApplication6.cpp(59): warning C4101: 'arear': unreferenced local variable
+     1>ConsoleApplication6.cpp(59): warning C4101: 'large': unreferenced local variable
+     1>ConsoleApplication6.cpp(59): warning C4101: 'padding': unreferenced local variable
+     1>ConsoleApplication6.cpp(59): warning C4101: 'areat': unreferenced local variable
+     1>ConsoleApplication6.cpp(59): warning C4101: 'areab': unreferenced local variable
+     1>ConsoleApplication6.cpp(191): warning C4101: 'area_right': unreferenced local variable
+     1>ConsoleApplication6.cpp(191): warning C4101: 'area_bottom': unreferenced local variable
+     1>ConsoleApplication6.cpp(191): warning C4101: 'area_top': unreferenced local variable
+     1>ConsoleApplication6.cpp(392): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>ConsoleApplication6.cpp(393): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>ConsoleApplication6.cpp(395): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>ConsoleApplication6.cpp(396): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>ConsoleApplication6.cpp(423): warning C4018: '<': signed/unsigned mismatch
+     1>ConsoleApplication6.cpp(450): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+     1>ConsoleApplication6.cpp(451): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+     1>ConsoleApplication6.cpp(453): warning C4018: '<': signed/unsigned mismatch
+         video.cpp
+     1>video.cpp(6): warning C4627: '#include <opencv2/opencv.hpp>': skipped when looking for precompiled header use
+         video.cpp(6): note: Add directive to 'stdafx.h' or rebuild precompiled header
+     1>video.cpp(7): warning C4627: '#include <iostream>': skipped when looking for precompiled header use
+         video.cpp(7): note: Add directive to 'stdafx.h' or rebuild precompiled header
+     1>video.cpp(8): warning C4627: '#include <cmath>': skipped when looking for precompiled header use
+         video.cpp(8): note: Add directive to 'stdafx.h' or rebuild precompiled header
+     1>video.cpp(12): error C2871: 'cv': a namespace with this name does not exist
+     1>video.cpp(20): error C2065: 'Point2f': undeclared identifier
+     1>video.cpp(20): error C2146: syntax error: missing ')' before identifier 'P'
+     1>video.cpp(21): error C2065: 'Point2f': undeclared identifier
+     1>video.cpp(21): error C2146: syntax error: missing ')' before identifier 'L'
+     1>video.cpp(22): error C2065: 'Point2f': undeclared identifier
+     1>video.cpp(22): error C2146: syntax error: missing ')' before identifier 'L'
+     1>video.cpp(23): error C2065: 'vector': undeclared identifier
+     1>video.cpp(23): error C2065: 'Point': undeclared identifier
+     1>video.cpp(23): error C2059: syntax error: '>'
+     1>video.cpp(24): error C2065: 'Point2f': undeclared identifier
+     1>video.cpp(24): error C2146: syntax error: missing ')' before identifier 'P'
+     1>video.cpp(25): error C2061: syntax error: identifier 'vector'
+     1>video.cpp(26): error C2065: 'Point2f': undeclared identifier
+     1>video.cpp(26): error C2146: syntax error: missing ')' before identifier 'a1'
+     1>video.cpp(27): error C2065: 'Point2f': undeclared identifier
+     1>video.cpp(27): error C2146: syntax error: missing ')' before identifier 'v1'
+     1>video.cpp(34): error C2065: 'VideoCapture': undeclared identifier
+     1>video.cpp(34): error C2146: syntax error: missing ';' before identifier 'capture'
+     1>video.cpp(34): error C2065: 'capture': undeclared identifier
+     1>video.cpp(37): error C2065: 'Mat': undeclared identifier
+     1>video.cpp(37): error C2146: syntax error: missing ';' before identifier 'image'
+     1>video.cpp(37): error C2065: 'image': undeclared identifier
+     1>video.cpp(39): error C2065: 'capture': undeclared identifier
+     1>video.cpp(39): error C2228: left of '.isOpened' must have class/struct/union
+         video.cpp(39): note: type is 'unknown-type'
+     1>video.cpp(39): error C2065: 'cerr': undeclared identifier
+     1>video.cpp(39): error C2065: 'endl': undeclared identifier
+     1>video.cpp(47): error C2065: 'capture': undeclared identifier
+     1>video.cpp(47): error C2065: 'image': undeclared identifier
+     1>video.cpp(48): error C2065: 'image': undeclared identifier
+     1>video.cpp(48): error C2228: left of '.empty' must have class/struct/union
+         video.cpp(48): note: type is 'unknown-type'
+     1>video.cpp(48): error C2065: 'cerr': undeclared identifier
+     1>video.cpp(48): error C2065: 'endl': undeclared identifier
+     1>video.cpp(54): error C2065: 'Mat': undeclared identifier
+     1>video.cpp(54): error C2146: syntax error: missing ';' before identifier 'gray'
+     1>video.cpp(54): error C2065: 'image': undeclared identifier
+     1>video.cpp(54): error C2228: left of '.size' must have class/struct/union
+         video.cpp(54): note: type is 'unknown-type'
+     1>video.cpp(54): error C2228: left of '.depth' must have class/struct/union
+         video.cpp(54): note: type is 'unknown-type'
+     1>video.cpp(54): error C3861: 'CV_MAKETYPE': identifier not found
+     1>video.cpp(54): error C3861: 'gray': identifier not found
+     1>video.cpp(55): error C2065: 'Mat': undeclared identifier
+     1>video.cpp(55): error C2146: syntax error: missing ';' before identifier 'edges'
+     1>video.cpp(55): error C2065: 'image': undeclared identifier
+     1>video.cpp(55): error C2228: left of '.size' must have class/struct/union
+         video.cpp(55): note: type is 'unknown-type'
+     1>video.cpp(55): error C2228: left of '.depth' must have class/struct/union
+         video.cpp(55): note: type is 'unknown-type'
+     1>video.cpp(55): error C3861: 'CV_MAKETYPE': identifier not found
+     1>video.cpp(55): error C3861: 'edges': identifier not found
+     1>video.cpp(56): error C2065: 'Mat': undeclared identifier
+     1>video.cpp(56): error C2146: syntax error: missing ';' before identifier 'traces'
+     1>video.cpp(56): error C2065: 'image': undeclared identifier
+     1>video.cpp(56): error C2228: left of '.size' must have class/struct/union
+         video.cpp(56): note: type is 'unknown-type'
+     1>video.cpp(56): error C2065: 'CV_8UC3': undeclared identifier
+     1>video.cpp(56): error C3861: 'traces': identifier not found
+     1>video.cpp(57): error C2065: 'Mat': undeclared identifier
+     1>video.cpp(57): error C2146: syntax error: missing ';' before identifier 'qr'
+     1>video.cpp(57): error C2065: 'qr': undeclared identifier
+     1>video.cpp(57): error C2065: 'qr_raw': undeclared identifier
+     1>video.cpp(57): error C2065: 'qr_gray': undeclared identifier
+     1>video.cpp(57): error C2065: 'qr_thres': undeclared identifier
+     1>video.cpp(59): error C2065: 'vector': undeclared identifier
+     1>video.cpp(59): error C2065: 'Point': undeclared identifier
+     1>video.cpp(59): error C2059: syntax error: '>'
+     1>video.cpp(60): error C2065: 'vector': undeclared identifier
+     1>video.cpp(60): error C2065: 'Vec4i': undeclared identifier
+     1>video.cpp(60): error C2065: 'hierarchy': undeclared identifier
+     1>video.cpp(73): error C2065: 'traces': undeclared identifier
+     1>video.cpp(73): error C3861: 'Scalar': identifier not found
+     1>video.cpp(74): error C2065: 'qr_raw': undeclared identifier
+     1>video.cpp(74): error C2653: 'Mat': is not a class or namespace name
+     1>video.cpp(74): error C2065: 'CV_8UC3': undeclared identifier
+     1>video.cpp(74): error C3861: 'zeros': identifier not found
+     1>video.cpp(75): error C2065: 'qr': undeclared identifier
+     1>video.cpp(75): error C2653: 'Mat': is not a class or namespace name
+     1>video.cpp(75): error C2065: 'CV_8UC3': undeclared identifier
+     1>video.cpp(75): error C3861: 'zeros': identifier not found
+     1>video.cpp(76): error C2065: 'qr_gray': undeclared identifier
+     1>video.cpp(76): error C2653: 'Mat': is not a class or namespace name
+     1>video.cpp(76): error C2065: 'CV_8UC1': undeclared identifier
+     1>video.cpp(76): error C3861: 'zeros': identifier not found
+     1>video.cpp(77): error C2065: 'qr_thres': undeclared identifier
+     1>video.cpp(77): error C2653: 'Mat': is not a class or namespace name
+     1>video.cpp(77): error C2065: 'CV_8UC1': undeclared identifier
+     1>video.cpp(77): error C3861: 'zeros': identifier not found
+     1>video.cpp(79): error C2065: 'capture': undeclared identifier
+     1>video.cpp(79): error C2065: 'image': undeclared identifier
+     1>video.cpp(81): error C2065: 'image': undeclared identifier
+     1>video.cpp(81): error C2065: 'gray': undeclared identifier
+     1>video.cpp(81): error C2065: 'CV_RGB2GRAY': undeclared identifier
+     1>video.cpp(81): error C3861: 'cvtColor': identifier not found
+     1>video.cpp(82): error C2065: 'gray': undeclared identifier
+     1>video.cpp(82): error C2065: 'edges': undeclared identifier
+     1>video.cpp(82): error C3861: 'Canny': identifier not found
+     1>video.cpp(85): error C2065: 'edges': undeclared identifier
+     1>video.cpp(85): error C2065: 'contours': undeclared identifier
+     1>video.cpp(85): error C2065: 'hierarchy': undeclared identifier
+     1>video.cpp(85): error C2065: 'RETR_TREE': undeclared identifier
+     1>video.cpp(85): error C2065: 'CHAIN_APPROX_SIMPLE': undeclared identifier
+     1>video.cpp(85): error C3861: 'findContours': identifier not found
+     1>video.cpp(90): error C2065: 'vector': undeclared identifier
+     1>video.cpp(90): error C2065: 'Moments': undeclared identifier
+     1>video.cpp(90): error C2065: 'contours': undeclared identifier
+     1>video.cpp(90): fatal error C1003: error count exceeds 100; stopping compilation
+     1>Done Building Project "C:\Users\Hansen\Documents\Visual Studio 2015\Projects\ConsoleApplication6\ConsoleApplication6\ConsoleApplication6.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.59
